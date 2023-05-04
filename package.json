@@ -1,5 +1,6 @@
 {
   "private": true,
+  "packageManager": "yarn@1.22.19",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -13,9 +14,7 @@
     "turbo": "latest"
   },
   "name": "azure-play",
-  "packageManager": "yarn@3.5.0",
   "workspaces": [
-    "apps/*",
     "packages/*"
   ],
   "volta": {

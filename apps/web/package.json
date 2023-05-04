@@ -1,7 +1,8 @@
 {
   "name": "web",
   "version": "1.0.0",
-  "private": true,
+  "license": "UNLICENCED",
+  "packageManager": "yarn@1.22.19",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,13 +12,13 @@
   "dependencies": {
     "next": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "ui": "*"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
+    "eslint": "^8.39.0",
     "eslint-config-custom": "*",
     "tsconfig": "*",
     "typescript": "^4.5.3"
